@@ -1,0 +1,53 @@
+<script>
+function isValidName(name) {
+  const parts = name.trim().split(/\s+/);
+  if (parts.length < 2) return false;
+  return parts.every(p => /^[A-Za-z]{2,}$/.test(p));
+}
+
+function isValidPhone(phone) {
+  return /^[0-9]{10}$/.test(phone);
+}
+
+function isValidEmail(email) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+}
+
+function isValidComplaint(text) {
+  return text.trim().split(/\s+/).length >= 3;
+}
+
+document.getElementById("complaintForm").addEventListener("submit", function(e) {
+  const name = document.getElementById("name").value;
+  const phone = document.getElementById("phone").value;
+  const email = document.getElementById("email").value;
+  const content = document.getElementById("content").value;
+  const msg = document.getElementById("msg");
+
+  msg.textContent = "";
+
+  if (!isValidName(name)) {
+    e.preventDefault();
+    msg.textContent = "Enter full name (first and last name, letters only).";
+    return;
+  }
+
+  if (!isValidPhone(phone)) {
+    e.preventDefault();
+    msg.textContent = "Enter valid 10-digit phone number.";
+    return;
+  }
+
+  if (!isValidEmail(email)) {
+    e.preventDefault();
+    msg.textContent = "Enter a valid email address.";
+    return;
+  }
+
+  if (!isValidComplaint(content)) {
+    e.preventDefault();
+    msg.textContent = "Complaint must contain at least 3 words.";
+    return;
+  }
+});
+</script>
