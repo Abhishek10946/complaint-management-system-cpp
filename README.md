@@ -115,7 +115,9 @@
 - Server: Apache (XAMPP for local execution)
 - Data Storage: File-based (.txt)
 - Authentication: File-based admin credentials
+# Architecture Diagram
 
+![System Architecture](docs/architecture.png)
 # 📂 Project Structure
 ```bash
 ComplaintManagementWeb
@@ -132,7 +134,10 @@ ComplaintManagementWeb
 │ ├── complaint_data.txt
 │ ├── archive.txt
 │ └── complaints_YYYY-MM-DD.txt
-└── README.md
+├── README.md
+├──docs/
+  └── architecture Diagram.png
+
 ```
 ## ▶️ How to Run (Local Setup)
 ```bash
