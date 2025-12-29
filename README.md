@@ -1,4 +1,4 @@
-### Complaint Management System (C++ CGI)
+# Complaint Management System (C++ CGI)
 - A web-based Complaint Management System built using C++ (CGI) as the backend and HTML, CSS, and JavaScript as the frontend.  
 - The system enables organizations to efficiently collect, manage, resolve, and archive complaints using a secure, role-based workflow.
 - 
@@ -6,13 +6,13 @@
 
 ## 🚀 Key Features
 
-# User (Public)
+### User (Public)
 - Submit complaints with strict validation
 - Full name, valid phone number, valid email enforced
 - Complaint must contain meaningful content (minimum word length)
 - User-friendly interface with validation feedback
 
-# Admin
+### Admin
 - Secure admin login (file-based authentication)
 - View all complaints
 - Resolve complaints (status change)
@@ -20,26 +20,26 @@
 - Deleted complaints are archived (audit trail)
 - Daily complaint logs generated automatically
 
-### 🏢 Use Cases Across Different Organizations
+# 🏢 Use Cases Across Different Organizations
 
 - This system is generic and adaptable, meaning it can be used in many domains with minimal customization.
 
 ## 1️⃣ Educational Institutions (Colleges / Universities)
 
-# Use Case:
+### Use Case:
 - Students submit complaints related to:
   - Exam results
   - Faculty issues
   - Infrastructure problems
   - Hostel or mess facilities
 
-# How it helps:
+### How it helps:
 - Students submit complaints online
 - Administration reviews and resolves complaints
 - Resolved complaints are archived for future reference
 - Daily logs help track complaint trends
 
-# Example:
+### Example:
 - A college IT department uses this system to manage student grievances transparently.
 
 - 2️⃣ Corporate Organizations / Companies
@@ -116,7 +116,7 @@
 - Data Storage: File-based (.txt)
 - Authentication: File-based admin credentials
 
-### 📂 Project Structure
+# 📂 Project Structure
 ```bash
 ComplaintManagementWeb
 ├── backend
