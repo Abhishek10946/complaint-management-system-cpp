@@ -117,7 +117,7 @@
 - Authentication: File-based admin credentials
 # Architecture Diagram
 
-![System Architecture](docs/Architecture Diagram.png)
+![System Architecture](docs/architecture.png)
 # 📂 Project Structure
 ```bash
 ComplaintManagementWeb
