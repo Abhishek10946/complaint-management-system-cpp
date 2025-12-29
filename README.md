@@ -1,5 +1,4 @@
-###Complaint Management System (C++ CGI)
-
+### Complaint Management System (C++ CGI)
 - A web-based Complaint Management System built using C++ (CGI) as the backend and HTML, CSS, and JavaScript as the frontend.  
 - The system enables organizations to efficiently collect, manage, resolve, and archive complaints using a secure, role-based workflow.
 - 
