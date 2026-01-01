@@ -156,9 +156,9 @@ Open browser: http://localhost/ComplaintManagementWeb/frontend/index.html
 - Archived complaints preserve data integrity
 
 ## 🎓 Academic Relevance
-
+-
 - This project demonstrates:
-  
+-  
 - File handling in C++
 - CGI-based web backend
 - Role-based access control
@@ -166,15 +166,15 @@ Open browser: http://localhost/ComplaintManagementWeb/frontend/index.html
 - Clean separation of frontend and backend
 - 
 - It is suitable for:
-  
+-  
 - Data Structures
 - Web Technologies
 - System Programming
 - Mini / Major Projects
-  
+-  
 - 👤 Author
 - Abhishek Kale
-  
+- 
 - 📌 Note
 - This project uses C++ CGI, so it is intended for local or server-based Apache deployment and is not compatible with static hosting platforms.
   
